@@ -16,7 +16,7 @@ api = Api(app)
 parser = reqparse.RequestParser()
 
 model = None
-model_file = '/home/pncdsvm/model.joblib'
+model_file = '../model.joblib'
 #forecast_file = '/home/pncdsvm/forecast.csv'
 
 def init():
